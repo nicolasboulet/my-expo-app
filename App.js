@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Header from './components/header';
 
 export default function App() {
   return (
-      <Text>Test de mon app </Text>
+      <Header content="Liste de tâches en props" content2="Autre contenu"/>
   );
 }
