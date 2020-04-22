@@ -3,6 +3,6 @@ import Header from './components/header';
 
 export default function App() {
   return (
-      <Header content="Liste de tâches en props" content2="Autre contenu"/>
+      <Header content="Liste de tâches en props"/>
   );
 }
